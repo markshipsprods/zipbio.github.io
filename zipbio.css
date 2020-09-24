@@ -1,38 +1,13 @@
-body {
-  background-color: powderblue;
-}
-
 .top {
   position: relative;
   z-index:1;
 }
 
-#logo {
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  font-weight: 700;
-  width: 110px;
-  border: 7px solid white;
-  padding: 4px;
-  margin: 130px auto;
-  text-align: center;
-}
-
-
-#tag {
-  font-family: 'Baloo Tammudu 2', cursive;
-  color: white;
-  font-weight: 700;
-  font-size: 3em;
-  letter-spacing: .7rem;
-  text-align: center;
-}
-
 .message {
-  margin-top: 225px;
-  font-family: 'Baloo Tammudu 2', cursive;
+  margin-top: 250px;
+  font-family: 'Montserrat', sans-serif;
   color: darkslategrey;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2em;
   text-align: center;
 }
@@ -63,6 +38,28 @@ body {
     padding-bottom: 56.25%;
     box-sizing: border-box;
 }
+
+#logo {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: 700;
+  width: 110px;
+  border: 6px solid white;
+  padding: 4px;
+  margin: 130px auto;
+  text-align: center;
+}
+
+
+#tag {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 3em;
+  letter-spacing: .8rem;
+  text-align: center;
+}
+
 /*
 .video-layer {
     position: absolute;
